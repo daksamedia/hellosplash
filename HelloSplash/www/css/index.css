@@ -113,3 +113,18 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+#splash {
+    background-attachment: scroll;
+    background-color: #ecffb1; 
+    background-image: url(../img/splash.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 450px auto;
+    display: block;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    position: fixed;
+    z-index: 10;
+}

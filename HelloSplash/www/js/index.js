@@ -45,5 +45,11 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+        $(document).ready(function(){
+            setTimeout(function(){
+                navigator.splashscreen.hide();
+                $('#splash').fadeOut();
+            },1500);
+        });
     }
 };
